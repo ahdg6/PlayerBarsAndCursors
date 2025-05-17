@@ -24,10 +24,10 @@ Configs: {
 	}
 
 	CursorSettings: {
-		MouseGlowColor.Tooltip: Pointer color towards the mouse
-		MousePointerColor.Tooltip: Glow color when mouse pointer approaches another pointer (e.g. Boss pointer)
-		BossGlowColor.Tooltip: Pointer color towards Bosses
-		BossPointerColor.Tooltip: Glow color when Boss pointer approaches mouse pointer
+		MouseGlowColor.Tooltip: Glow color when mouse pointer approaches another pointer (e.g. Boss pointer)
+		MousePointerColor.Tooltip: Pointer color towards the mouse
+		BossGlowColor.Tooltip: Glow color when Boss pointer approaches mouse pointer
+		BossPointerColor.Tooltip: Pointer color towards Bosses
 		GlowScaleMultiplier.Tooltip: Pointer scale multiplier when glowing
 		CloseDistanceThreshold.Tooltip: Triggers glow effect when two pointers are closer than this distance
 		PointerRadius.Tooltip: Render radius for mouse and Boss pointers around the character

@@ -24,10 +24,10 @@ Configs: {
 	}
 
 	CursorSettings: {
-		MouseGlowColor.Tooltip: 指向鼠标的指针颜色
-		MousePointerColor.Tooltip: 指向鼠标的指针发光颜色(即与Boss指针接近时)
-		BossGlowColor.Tooltip: 指向 Boss 的指针颜色
-		BossPointerColor.Tooltip: 指向Boss的指针发光颜色(即与鼠标指针接近时)
+		MouseGlowColor.Tooltip: 指向鼠标的指针发光颜色(即与Boss指针接近时)
+		MousePointerColor.Tooltip: 指向鼠标的指针颜色
+		BossGlowColor.Tooltip: 指向Boss的指针发光颜色(即与鼠标指针接近时)
+		BossPointerColor.Tooltip: 指向 Boss 的指针颜色
 		GlowScaleMultiplier.Tooltip: 发光时放大指针的倍率
 		CloseDistanceThreshold.Tooltip: 当两个指针距离小于此值时触发发光效果
 		PointerRadius.Tooltip: 鼠标和Boss指针围绕角色的绘制半径

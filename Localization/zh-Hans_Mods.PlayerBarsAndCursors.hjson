@@ -1,0 +1,91 @@
+Configs: {
+	PlayerBarsAndCursors: {
+		CursorSettings: {
+			Tooltip: ""
+			Label: 光标设置
+		}
+
+		WingTimeBar: {
+			Tooltip: ""
+			Label: 翅膀飞行时间条
+		}
+
+		ManaBar: {
+			Tooltip: ""
+			Label: 魔力条
+		}
+
+		HealthBar: {
+			Tooltip: ""
+			Label: 生命条
+		}
+
+		DisplayName: 玩家状态条与光标
+	}
+
+	CursorSettings: {
+		MouseGlowColor.Tooltip: "指向鼠标的指针颜色"
+		MousePointerColor.Tooltip: "指向鼠标的指针发光颜色(即与Boss指针接近时)"
+		BossGlowColor.Tooltip: "指向 Boss 的指针颜色""
+		BossPointerColor.Tooltip: "指向Boss的指针发光颜色(即与鼠标指针接近时)"
+		GlowScaleMultiplier.Tooltip: "发光时放大指针的倍率"
+		CloseDistanceThreshold.Tooltip: 当两个指针距离小于此值时触发发光效果
+		PointerRadius.Tooltip: 鼠标和Boss指针围绕角色的绘制半径
+		Scale.Tooltip: ""
+		MaxBossPointers.Tooltip: ""
+		ShowBossIcons.Tooltip: "开启时，如果 Boss 有头像图标则优先用图标替换指针渲染"
+		OnlyShowInBossFight.Tooltip: ""
+		AutoHideOnMapStyle.Tooltip: "原版游戏按 Tab 切换地图模式(0-3)"
+		ShowMousePointer.Tooltip: ""
+		ShowBossPointer.Tooltip: ""
+		Tooltip: ""
+	}
+
+	BarSettings: {
+		DebugInfo: {
+			Tooltip: ""
+			Label: 调试信息
+		}
+
+		Offset.Tooltip: ""
+		Scale.Tooltip: ""
+		OnlyShowInBossFight.Tooltip: ""
+		AutoHideWhenFull.Tooltip: ""
+		Show.Tooltip: ""
+		Tooltip: ""
+	}
+}
+
+Config: {
+	Headers: {
+		CursorHeader: 光标设置
+		BarHeader: 生命条设置
+	}
+
+	CursorSettings: {
+		MouseGlowColor: 鼠标发光颜色
+		MousePointerColor: 鼠标指针颜色
+		BossGlowColor: Boss发光颜色
+		BossPointerColor: Boss指针颜色
+		GlowScaleMultiplier: 发光缩放倍数
+		CloseDistanceThreshold: 指针发光距离阈值
+		PointerRadius: 指针绘制半径
+		Scale: 缩放比例
+		MaxBossPointers: 最大Boss指针数量
+		ShowBossIcons: 显示Boss图标
+		OnlyShowInBossFight: 仅在Boss战时显示
+		AutoHideOnMapStyle: 地图模式(Tab)下自动隐藏
+		ShowMousePointer: 显示鼠标指针
+		ShowBossPointer: 显示Boss指针
+	}
+
+	BarSettings: {
+		Offset: 偏移量
+		Scale: 缩放比例
+		OnlyShowInBossFight: 仅在Boss战时显示
+		AutoHideWhenFull: 满状态时自动隐藏
+		Show: 显示
+	}
+}
+
+"Keybinds.Toggle Player Bars.DisplayName": 切换玩家状态条显示

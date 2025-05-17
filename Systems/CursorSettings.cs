@@ -21,13 +21,14 @@ public class CursorSettings
     [DefaultValue(true)]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.OnlyShowInBossFight")]
     public bool OnlyShowInBossFight { get; set; } = true;
-    
-    
+
+
     [DefaultValue(true)]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.ShowBossIcons")]
     public bool ShowBossIcons { get; set; } = true;
+
     /// <summary>
-    /// 最多同时指向多少个 Boss，0 或负数 表示不限制
+    ///     最多同时指向多少个 Boss，0 或负数 表示不限制
     /// </summary>
     [DefaultValue(3)]
     [Range(0, 10)]
@@ -70,17 +71,17 @@ public class CursorSettings
 
     [DefaultValue(typeof(Color), "255,120,120,120")]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.BossPointerColor")]
-    public Color BossPointerColor { get; set; } = new Color(255, 120, 120, 120);
+    public Color BossPointerColor { get; set; } = new(255, 120, 120, 120);
 
     [DefaultValue(typeof(Color), "255,120,120,40")]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.BossGlowColor")]
-    public Color BossGlowColor { get; set; } = new Color(255, 120, 120, 40);
+    public Color BossGlowColor { get; set; } = new(255, 120, 120, 40);
 
     [DefaultValue(typeof(Color), "120,255,120,120")]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.MousePointerColor")]
-    public Color MousePointerColor { get; set; } = new Color(120, 255, 120, 120);
+    public Color MousePointerColor { get; set; } = new(120, 255, 120, 120);
 
     [DefaultValue(typeof(Color), "120,255,120,40")]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.CursorSettings.MouseGlowColor")]
-    public Color MouseGlowColor { get; set; } = new Color(120, 255, 120, 40);
+    public Color MouseGlowColor { get; set; } = new(120, 255, 120, 40);
 }

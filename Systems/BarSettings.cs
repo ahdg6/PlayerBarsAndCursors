@@ -2,15 +2,16 @@ using System.ComponentModel;
 using Newtonsoft.Json;
 using Terraria.ModLoader.Config;
 
-public class BarSettings {
+public class BarSettings
+{
     [DefaultValue(true)]
-    [LabelKey("$Mods.PlayerBarsAndCursors.Config.BarSettings.Show")]         // 自定义本地化键
+    [LabelKey("$Mods.PlayerBarsAndCursors.Config.BarSettings.Show")] // 自定义本地化键
     public bool Show { get; set; }
 
     [DefaultValue(false)]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.BarSettings.AutoHideWhenFull")]
     public bool AutoHideWhenFull { get; set; }
-    
+
     [DefaultValue(false)]
     [LabelKey("$Mods.PlayerBarsAndCursors.Config.BarSettings.OnlyShowInBossFight")]
     public bool OnlyShowInBossFight { get; set; }
@@ -31,6 +32,6 @@ public class BarSettings {
 
     // 如果有计算属性或用 [JsonIgnore] 的字段，也可用：
     [JsonIgnore]
-    [ShowDespiteJsonIgnore]  // 强制在 UI 中显示
+    [ShowDespiteJsonIgnore] // 强制在 UI 中显示
     public string DebugInfo => $"Scale={Scale},Offset={Offset}";
 }

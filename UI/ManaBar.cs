@@ -8,7 +8,7 @@ namespace PlayerBarsAndCursors.UI;
 internal class ManaBar : BaseBar
 {
     private BarSettings Cfg => BarsContainer.ManaBarConfig;
-    
+
     /// <summary>
     ///     判断是否显示蓝条
     /// </summary>
@@ -21,6 +21,7 @@ internal class ManaBar : BaseBar
     {
         return Cfg;
     }
+
     /// <summary>
     ///     根据玩家当前法力值计算填充百分比
     /// </summary>

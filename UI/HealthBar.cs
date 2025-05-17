@@ -8,7 +8,7 @@ namespace PlayerBarsAndCursors.UI;
 internal class HealthBar : BaseBar
 {
     private BarSettings Cfg => BarsContainer.HealthBarConfig;
-    
+
     /// <summary>
     ///     判断是否显示血条
     /// </summary>

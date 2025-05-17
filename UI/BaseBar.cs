@@ -1,4 +1,3 @@
-using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
@@ -12,7 +11,6 @@ namespace PlayerBarsAndCursors.UI;
 /// </summary>
 internal abstract class BaseBar : UIElement
 {
-    
     // 公共纹理：背景条（不随数值变化）和前景条（根据数值缩放）
     protected Texture2D BarTextureBg = TextureAssets.Hb2.Value;
     protected Texture2D BarTextureFg = TextureAssets.Hb1.Value;
@@ -46,7 +44,7 @@ internal abstract class BaseBar : UIElement
     ///     判断当前条形是否需要绘制（子类可根据显示设置实现）
     /// </summary>
     protected abstract bool ShouldDraw();
-    
+
     /// <summary>
     ///     判断当前条形是否需要绘制（子类可根据显示设置实现）
     /// </summary>
@@ -73,15 +71,14 @@ internal abstract class BaseBar : UIElement
         // 计算当前的填充百分比（并保证在0～1范围内）
         var fillPercentage = Utils.Clamp(GetFillPercentage(), 0f, 1f);
         var _cfg = GetBarConfig();
-        
+
         // 当启用满值自动隐藏功能时，如果填充满就直接返回
         if (_cfg.AutoHideWhenFull && fillPercentage >= 1f)
             return;
 
         if (_cfg.OnlyShowInBossFight)
-        {
-            if (BarsContainer.ActiveBoss == null) return;
-        }
+            if (BarsContainer.ActiveBoss == null)
+                return;
 
         var zoom = Main.GameZoomTarget;
         // 从父 UIState(UIElement) 获取玩家屏幕位置，由于他先于我渲染，所以是没问题的。

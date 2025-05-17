@@ -8,16 +8,15 @@ namespace PlayerBarsAndCursors.UI;
 internal class WingTimeBar : BaseBar
 {
     private BarSettings Cfg => BarsContainer.WingTimeBarConfig;
+
     /// <summary>
     ///     判断是否显示飞行时间条
     /// </summary>
     protected override bool ShouldDraw()
     {
         if (Cfg.Show)
-        {
             // 飞行时间是重置式的，只有飞行时才应该显示
             return Player.controlJump && Player.wingTime > 0 && !Player.mount.Active;
-        }
 
         return false;
     }
@@ -26,6 +25,7 @@ internal class WingTimeBar : BaseBar
     {
         return Cfg;
     }
+
     /// <summary>
     ///     根据玩家当前法力值计算填充百分比
     /// </summary>

@@ -1,5 +1,6 @@
 displayName = Player Bars and Cursor
 author = ahdg
-version = 1.2
+version = 1.4
+languages = en-US,zh-Hans
 side = client
 buildIgnore = .gitignore, *.sln, *.csproj, *.user, obj\*, bin\*, .vs\*, Properties\*, .git\*

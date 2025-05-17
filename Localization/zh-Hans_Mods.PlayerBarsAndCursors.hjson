@@ -24,18 +24,18 @@ Configs: {
 	}
 
 	CursorSettings: {
-		MouseGlowColor.Tooltip: "指向鼠标的指针颜色"
-		MousePointerColor.Tooltip: "指向鼠标的指针发光颜色(即与Boss指针接近时)"
-		BossGlowColor.Tooltip: "指向 Boss 的指针颜色""
-		BossPointerColor.Tooltip: "指向Boss的指针发光颜色(即与鼠标指针接近时)"
-		GlowScaleMultiplier.Tooltip: "发光时放大指针的倍率"
+		MouseGlowColor.Tooltip: 指向鼠标的指针颜色
+		MousePointerColor.Tooltip: 指向鼠标的指针发光颜色(即与Boss指针接近时)
+		BossGlowColor.Tooltip: 指向 Boss 的指针颜色
+		BossPointerColor.Tooltip: 指向Boss的指针发光颜色(即与鼠标指针接近时)
+		GlowScaleMultiplier.Tooltip: 发光时放大指针的倍率
 		CloseDistanceThreshold.Tooltip: 当两个指针距离小于此值时触发发光效果
 		PointerRadius.Tooltip: 鼠标和Boss指针围绕角色的绘制半径
 		Scale.Tooltip: ""
 		MaxBossPointers.Tooltip: ""
-		ShowBossIcons.Tooltip: "开启时，如果 Boss 有头像图标则优先用图标替换指针渲染"
+		ShowBossIcons.Tooltip: 开启时，如果 Boss 有头像图标则优先用图标替换指针渲染
 		OnlyShowInBossFight.Tooltip: ""
-		AutoHideOnMapStyle.Tooltip: "原版游戏按 Tab 切换地图模式(0-3)"
+		AutoHideOnMapStyle.Tooltip: 原版游戏按 Tab 切换地图模式(0-3)
 		ShowMousePointer.Tooltip: ""
 		ShowBossPointer.Tooltip: ""
 		Tooltip: ""

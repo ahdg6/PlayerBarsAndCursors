@@ -24,18 +24,18 @@ Configs: {
 	}
 
 	CursorSettings: {
-		MouseGlowColor.Tooltip: ""
-		MousePointerColor.Tooltip: ""
-		BossGlowColor.Tooltip: ""
-		BossPointerColor.Tooltip: ""
-		GlowScaleMultiplier.Tooltip: ""
-		CloseDistanceThreshold.Tooltip: ""
-		PointerRadius.Tooltip: ""
+		MouseGlowColor.Tooltip: "Pointer color towards the mouse"
+		MousePointerColor.Tooltip: "Glow color when mouse pointer approaches another pointer (e.g. Boss pointer)"
+		BossGlowColor.Tooltip: "Pointer color towards Bosses"
+		BossPointerColor.Tooltip: "Glow color when Boss pointer approaches mouse pointer"
+		GlowScaleMultiplier.Tooltip: "Pointer scale multiplier when glowing"
+		CloseDistanceThreshold.Tooltip: "Triggers glow effect when two pointers are closer than this distance"
+		PointerRadius.Tooltip: "Render radius for mouse and Boss pointers around the character"
 		Scale.Tooltip: ""
 		MaxBossPointers.Tooltip: ""
-		ShowBossIcons.Tooltip: ""
+		ShowBossIcons.Tooltip: "When enabled, uses Boss's portrait icon instead of pointer if available"
 		OnlyShowInBossFight.Tooltip: ""
-		AutoHideOnMapStyle.Tooltip: ""
+		AutoHideOnMapStyle.Tooltip: "Vanilla game's map mode when pressing Tab (0-3)"
 		ShowMousePointer.Tooltip: ""
 		ShowBossPointer.Tooltip: ""
 		Tooltip: ""
@@ -58,8 +58,8 @@ Configs: {
 
 Config: {
 	Headers: {
-		CursorHeader: Cursor Settings Header
-		BarHeader: Health Bar Header
+		CursorHeader: Cursor Settings
+		BarHeader: Health Bar Settings
 	}
 
 	CursorSettings: {
@@ -68,13 +68,13 @@ Config: {
 		BossGlowColor: Boss Glow Color
 		BossPointerColor: Boss Pointer Color
 		GlowScaleMultiplier: Glow Scale Multiplier
-		CloseDistanceThreshold: Close Distance Threshold
-		PointerRadius: Pointer Radius
+		CloseDistanceThreshold: Pointer Glow Distance Threshold
+		PointerRadius: Pointer Render Radius
 		Scale: Scale
 		MaxBossPointers: Max Boss Pointers
 		ShowBossIcons: Show Boss Icons
 		OnlyShowInBossFight: Only Show In Boss Fight
-		AutoHideOnMapStyle: Auto Hide On Map Style
+		AutoHideOnMapStyle: Auto Hide In Map Mode (Tab)
 		ShowMousePointer: Show Mouse Pointer
 		ShowBossPointer: Show Boss Pointer
 	}
@@ -88,4 +88,4 @@ Config: {
 	}
 }
 
-"Keybinds.Toggle Player Bars.DisplayName": Toggle  Player  Bars
+"Keybinds.Toggle Player Bars.DisplayName": Toggle Player Bars

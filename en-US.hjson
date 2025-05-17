@@ -173,6 +173,8 @@ Mods: {
 				BossGlowColor.Tooltip: ""
 				MousePointerColor.Tooltip: ""
 				MouseGlowColor.Tooltip: ""
+				ShowBossIcons.Tooltip: ""
+				MaxBossPointers.Tooltip: ""
 			}
 		}
 
@@ -203,6 +205,8 @@ Mods: {
 				BossGlowColor: Boss Glow Color
 				MousePointerColor: Mouse Pointer Color
 				MouseGlowColor: Mouse Glow Color
+				ShowBossIcons: Show Boss Icons
+				MaxBossPointers: Max Boss Pointers
 			}
 		}
 	}

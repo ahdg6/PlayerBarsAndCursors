@@ -1,1 +1,15 @@
-PlayerBarsAndCursors is a lightweight tModLoader mod that draws customizable health, mana, and flight‑time bars beneath your player sprite, and renders directional pointers to bosses and your cursor—all fully configurable via ModConfig.
+A lightweight tModLoader mod that:
+- Draws health, mana & flight‑time bars beneath your player sprite
+- Renders directional pointers to bosses and your cursor
+
+Can partially replace features from
+- Player Health and Mana Bars: https://steamcommunity.com/sharedfiles/filedetails/?id=3142258166
+- Cursor Indicator: https://steamcommunity.com/sharedfiles/filedetails/?id=3045309304
+- BossCursor: https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149
+
+Key Features
+🔄 Toggle on/off with a hotkey (default: P)
+👹 Boss‑only mode: show pointers & bars only during boss fights
+⚙️ Full ModConfig support: customize colors, scale, offsets, auto‑hide rules, hotkeys, and more
+
+Ideal for bullet‑hell encounters—focus on your positioning without UI clutter.

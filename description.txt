@@ -1,0 +1,1 @@
+PlayerBarsAndCursors is a lightweight tModLoader mod that draws customizable health, mana, and flight‑time bars beneath your player sprite, and renders directional pointers to bosses and your cursor—all fully configurable via ModConfig.

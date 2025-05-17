@@ -1,0 +1,209 @@
+Mods: {
+	PlayerBars: {
+		Configs: {
+			PlayerBarsConfig: {
+				Offset: {
+					Tooltip: ""
+					Label: Offset
+				}
+
+				Scale: {
+					Tooltip: ""
+					Label: Scale
+				}
+
+				ShowHealthBar: {
+					Tooltip: ""
+					Label: Show Health Bar
+				}
+
+				DisplayName: Player Bars Config
+
+				ShowManaBar: {
+					Label: Show Mana Bar
+					Tooltip: ""
+				}
+
+				AutoHideWhenFull: {
+					Label: Auto Hide When Full
+					Tooltip: ""
+				}
+
+				HealthBar: {
+					Label: Health Bar
+					Tooltip: ""
+				}
+
+				ManaBar: {
+					Label: Mana Bar
+					Tooltip: ""
+				}
+
+				WingTimeBar: {
+					Label: Wing Time Bar
+					Tooltip: ""
+				}
+
+				CursorSettings: {
+					Label: Cursor Settings
+					Tooltip: ""
+				}
+			}
+
+			BarSettings: {
+				Tooltip: ""
+				Show.Tooltip: ""
+				AutoHideWhenFull.Tooltip: ""
+				OnlyShowInBossFight.Tooltip: ""
+				Scale.Tooltip: ""
+				Offset.Tooltip: ""
+
+				DebugInfo: {
+					Label: Debug Info
+					Tooltip: ""
+				}
+			}
+
+			CursorSettings: {
+				Tooltip: ""
+				ShowBossPointer.Tooltip: ""
+				ShowMousePointer.Tooltip: ""
+				AutoHideOnMapStyle.Tooltip: ""
+				OnlyShowInBossFight.Tooltip: ""
+				Scale.Tooltip: ""
+				PointerRadius.Tooltip: ""
+				CloseDistanceThreshold.Tooltip: ""
+				GlowScaleMultiplier.Tooltip: ""
+				BossPointerColor.Tooltip: ""
+				BossGlowColor.Tooltip: ""
+				MousePointerColor.Tooltip: ""
+				MouseGlowColor.Tooltip: ""
+			}
+		}
+
+		Config: {
+			BarSettings: {
+				Show: Show
+				AutoHideWhenFull: Auto Hide When Full
+				OnlyShowInBossFight: Only Show In Boss Fight
+				Scale: Scale
+				Offset: Offset
+			}
+
+			Headers: {
+				HealthBar: Health Bar Header
+				ManaBar: Mana Bar Header
+				WingTimeBar: Wing Time Bar Header
+				BarHeader: Health Bar Header
+				CursorHeader: Cursor Settings Header
+			}
+
+			CursorSettings: {
+				ShowBossPointer: Show Boss Pointer
+				ShowMousePointer: Show Mouse Pointer
+				AutoHideOnMapStyle: Auto Hide On Map Style
+				OnlyShowInBossFight: Only Show In Boss Fight
+				Scale: Scale
+				PointerRadius: Pointer Radius
+				CloseDistanceThreshold: Close Distance Threshold
+				GlowScaleMultiplier: Glow Scale Multiplier
+				BossPointerColor: Boss Pointer Color
+				BossGlowColor: Boss Glow Color
+				MousePointerColor: Mouse Pointer Color
+				MouseGlowColor: Mouse Glow Color
+			}
+		}
+
+		"Keybinds.Toggle Player Bars.DisplayName": Toggle  Player  Bars
+	}
+
+	PlayerBarsAndCursors: {
+		"Keybinds.Toggle Player Bars.DisplayName": Toggle  Player  Bars
+
+		Configs: {
+			PlayerBarsConfig: {
+				DisplayName: Player Bars Config
+
+				HealthBar: {
+					Label: Health Bar
+					Tooltip: ""
+				}
+
+				ManaBar: {
+					Label: Mana Bar
+					Tooltip: ""
+				}
+
+				WingTimeBar: {
+					Label: Wing Time Bar
+					Tooltip: ""
+				}
+
+				CursorSettings: {
+					Label: Cursor Settings
+					Tooltip: ""
+				}
+			}
+
+			BarSettings: {
+				Tooltip: ""
+				Show.Tooltip: ""
+				AutoHideWhenFull.Tooltip: ""
+				OnlyShowInBossFight.Tooltip: ""
+				Scale.Tooltip: ""
+				Offset.Tooltip: ""
+
+				DebugInfo: {
+					Label: Debug Info
+					Tooltip: ""
+				}
+			}
+
+			CursorSettings: {
+				Tooltip: ""
+				ShowBossPointer.Tooltip: ""
+				ShowMousePointer.Tooltip: ""
+				AutoHideOnMapStyle.Tooltip: ""
+				OnlyShowInBossFight.Tooltip: ""
+				Scale.Tooltip: ""
+				PointerRadius.Tooltip: ""
+				CloseDistanceThreshold.Tooltip: ""
+				GlowScaleMultiplier.Tooltip: ""
+				BossPointerColor.Tooltip: ""
+				BossGlowColor.Tooltip: ""
+				MousePointerColor.Tooltip: ""
+				MouseGlowColor.Tooltip: ""
+			}
+		}
+
+		Config: {
+			BarSettings: {
+				Show: Show
+				AutoHideWhenFull: Auto Hide When Full
+				OnlyShowInBossFight: Only Show In Boss Fight
+				Scale: Scale
+				Offset: Offset
+			}
+
+			Headers: {
+				BarHeader: Health Bar Header
+				CursorHeader: Cursor Settings Header
+			}
+
+			CursorSettings: {
+				ShowBossPointer: Show Boss Pointer
+				ShowMousePointer: Show Mouse Pointer
+				AutoHideOnMapStyle: Auto Hide On Map Style
+				OnlyShowInBossFight: Only Show In Boss Fight
+				Scale: Scale
+				PointerRadius: Pointer Radius
+				CloseDistanceThreshold: Close Distance Threshold
+				GlowScaleMultiplier: Glow Scale Multiplier
+				BossPointerColor: Boss Pointer Color
+				BossGlowColor: Boss Glow Color
+				MousePointerColor: Mouse Pointer Color
+				MouseGlowColor: Mouse Glow Color
+			}
+		}
+	}
+}
